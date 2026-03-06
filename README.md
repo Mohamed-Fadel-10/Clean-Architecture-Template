@@ -118,5 +118,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 ---
 
 <div align="center">
-  Made with ❤️ by <a href="https://github.com/YourUsername">Fadel</a>
+  Made with ❤️ by <a href="https://github.com/Mohamed-Fadel-10">Fadel</a>
 </div>
