@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Fadel.CleanArchTemplate</id>
+    <version>1.0.0</version>
+    <title>Clean Architecture Template</title>
+    <authors>Mohamed Fadel</authors>
+    <description>
+      Clean Architecture Template with ASP.NET Core Identity, JWT, Refresh Tokens,
+      Vertical Slice Architecture, MediatR, FluentValidation, and EF Core.
+    </description>
+    <tags>clean-architecture vertical-slice asp.net-core identity jwt mediatr</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>

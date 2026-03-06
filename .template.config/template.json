@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Mohamed Fadel",
+  "classifications": ["Web", "API", "Clean Architecture"],
+  "identity": "CleanArchTemplate",
+  "name": "Clean Architecture Template",
+  "shortName": "cleanarch",
+  "sourceName": "MyProject",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

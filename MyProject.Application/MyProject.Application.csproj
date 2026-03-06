@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\Users\Commands\**" />
+    <Compile Remove="Features\Users\DTOs\**" />
+    <Compile Remove="Features\Users\Queries\**" />
+    <Compile Remove="Features\Users\Validators\**" />
+    <EmbeddedResource Remove="Features\Users\Commands\**" />
+    <EmbeddedResource Remove="Features\Users\DTOs\**" />
+    <EmbeddedResource Remove="Features\Users\Queries\**" />
+    <EmbeddedResource Remove="Features\Users\Validators\**" />
+    <None Remove="Features\Users\Commands\**" />
+    <None Remove="Features\Users\DTOs\**" />
+    <None Remove="Features\Users\Queries\**" />
+    <None Remove="Features\Users\Validators\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyProject.Domain\MyProject.Domain.csproj" />
+    <ProjectReference Include="..\MyProject.Shared\MyProject.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Auth\Login\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+</Project>
