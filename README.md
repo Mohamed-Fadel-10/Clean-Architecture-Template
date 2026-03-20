@@ -5,7 +5,7 @@
 [![NuGet Version](https://img.shields.io/nuget/v/Fadel.CleanArchTemplate?color=blue&label=nuget)](https://www.nuget.org/packages/Fadel.CleanArchTemplate)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Fadel.CleanArchTemplate?color=green)](https://www.nuget.org/packages/Fadel.CleanArchTemplate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![.NET](https://img.shields.io/badge/.NET-8.0-purple)](https://dotnet.microsoft.com)
+[![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com)
 
 A production-ready **.NET Clean Architecture Template** with everything you need to build scalable APIs from day one.
 
